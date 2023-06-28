@@ -37,6 +37,7 @@ function App() {
           placeholder="Select Your Country"
           readOnly
         />
+        
         <span className={openselect ? "icon active" : "icon"}>
           <FontAwesomeIcon icon="fa-angle-down" />
         </span>
